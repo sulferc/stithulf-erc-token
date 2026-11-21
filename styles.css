@@ -186,8 +186,7 @@ code { font-family: var(--mono); }
 .donut {
   position: relative; width: min(100%, 17rem); aspect-ratio: 1; border-radius: 50%;
   background: conic-gradient(
-    var(--c1) 0 30%, var(--c2) 30% 55%, var(--c3) 55% 75%,
-    var(--c4) 75% 90%, var(--c5) 90% 95%, var(--c6) 95% 100%);
+    var(--c1) 0 85.1%, var(--c3) 85.1% 88.5%, var(--c5) 88.5% 100%);
 }
 .donut::before { content: ""; position: absolute; inset: 22%; border-radius: 50%; background: var(--alt); }
 .donut-center { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
