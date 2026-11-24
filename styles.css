@@ -99,6 +99,7 @@ code { font-family: var(--mono); }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 3.5rem; }
 .brand { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; font-family: var(--serif); font-weight: 600; font-size: 1.1rem; white-space: nowrap; }
 .brand-mark { display: grid; place-items: center; width: 1.9rem; height: 1.9rem; border-radius: .4rem; background: var(--gold-soft); color: var(--navy); font-weight: 700; }
+.brand-logo { display: block; width: 1.9rem; height: 1.9rem; border-radius: .4rem; }
 .nav { display: flex; gap: .25rem; overflow-x: auto; scrollbar-width: none; }
 .nav::-webkit-scrollbar { display: none; }
 .nav a { padding: .55rem .75rem; text-decoration: none; font-size: .92rem; color: rgba(255, 255, 255, .85); border-radius: .4rem; white-space: nowrap; }
